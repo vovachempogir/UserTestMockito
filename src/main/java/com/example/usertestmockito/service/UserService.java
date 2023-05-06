@@ -4,4 +4,5 @@ import com.example.usertestmockito.model.User;
 
 public interface UserService {
     boolean checkUserExist (User user);
+
 }

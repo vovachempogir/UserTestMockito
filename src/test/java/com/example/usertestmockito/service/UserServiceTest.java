@@ -39,5 +39,4 @@ public class UserServiceTest {
         when(userDaoImpl.getUserList()).thenReturn(userList);
         Assertions.assertFalse(userServiceImpl.checkUserExist(user2ForTest));
     }
-
 }

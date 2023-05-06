@@ -3,7 +3,7 @@ package com.example.usertestmockito.service;
 import com.example.usertestmockito.Dao.UserDaoImpl;
 import com.example.usertestmockito.model.User;
 
-public class UserServiceImpl implements UserService{
+public class UserServiceImpl implements UserService {
     private UserDaoImpl userDaoImpl;
 
     public UserServiceImpl(UserDaoImpl userDaoImpl) {
