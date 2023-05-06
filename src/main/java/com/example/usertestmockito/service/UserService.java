@@ -2,6 +2,6 @@ package com.example.usertestmockito.service;
 
 import com.example.usertestmockito.model.User;
 
-public interface UserService {
+public interface UserService  {
     boolean checkUserExist (User user);
 }
