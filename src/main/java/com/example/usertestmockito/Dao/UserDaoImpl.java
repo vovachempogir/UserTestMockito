@@ -33,5 +33,4 @@ public class UserDaoImpl implements UserDao {
     public List<User> findAllUsers(){
         return userList;
     }
-
 }

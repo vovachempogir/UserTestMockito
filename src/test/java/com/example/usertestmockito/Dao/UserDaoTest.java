@@ -25,5 +25,4 @@ public class UserDaoTest {
     void shouldFindAllUsers1() {
         Assertions.assertNotNull(userDaoImpl.getUserByName("Коля"));
     }
-
 }
